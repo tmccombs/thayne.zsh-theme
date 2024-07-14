@@ -4,6 +4,17 @@ A simple zsh theme that just does what I want
 
 ![Screenshot](assets/screenshot-2024-07-14.png)
 
+![Screenshot with error](assets/screenshot-error.png)
+
+## Features
+
+- Iconography using nerd fonts
+- Show status code of previous command if non-zero
+- Show duration of last command, if > 1 second
+- Show current time
+- Show current directory
+- Show current git branch
+
 
 ## Why I made this
 
@@ -24,3 +35,11 @@ The specific issues I had with powerlevel10k are as follows:
 
 So, much as I appreciate the work done by romkatv, I realized that I could create my own prompt that did everything I needed without having to depend on
 a massive project like powerlevel10k.
+
+## Future improvements
+
+Some things I'd like that this doesn't do yet:
+
+- [ ] Some kind of directory shortening if the currend directory is long
+- [ ] Show if the current git repo is "dirty"
+- [ ] Something like powelevel10k's transient prompt, but keep the time, duration, and status code.
